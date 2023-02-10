@@ -1,1 +1,3 @@
-# shortformikael.github.io
+# shortformikael WIP
+
+Static Portfolio webiste WIP
