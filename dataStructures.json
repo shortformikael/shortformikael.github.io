@@ -1,0 +1,17 @@
+{
+    "human":[
+        {"id": 0}
+    ],
+
+    "picture":[
+        {"id": 0, "content":"example.png"}
+    ],
+
+    "question":[
+        {"id": 0, "pictureId": 0, "correctAnswer": true, "answer": null}
+    ],
+
+    "humanSurvey": [
+        {"id": 0, "humanId": 0, "questionId": 0}
+    ]
+}
