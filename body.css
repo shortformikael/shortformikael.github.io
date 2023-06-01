@@ -1,0 +1,10 @@
+#Body {
+    background-color: grey;
+}
+
+.card {
+    display: block;
+    background-color: rgb(87, 87, 87);
+    border: 2px;
+    color: white;
+}

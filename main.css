@@ -1,14 +1,3 @@
-#title {
-
-}
-
 body {
-    background-color: grey;
-}
-
-.card {
-    display: inline-block;
-    background-color: rgb(87, 87, 87);
-    border: 2px;
-    color: white;
+    background-color: black;
 }
