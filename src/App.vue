@@ -2,7 +2,7 @@
 // import { useRoute, RouterView } from 'vue-router'
 // import { computed } from 'vue'
 import PageTitle from '@/components/PageTitle.vue';
-import ContentBox from '@/components/ContentBox.vue'
+import Content from '@/components/Content';
 
 // const routeName = computed(() => useRoute().name)
 
@@ -23,7 +23,7 @@ import ContentBox from '@/components/ContentBox.vue'
     </div>
   </div> -->  
   <PageTitle/>
-  <ContentBox/>
+  <Content/>
 </template>
 
 <style>

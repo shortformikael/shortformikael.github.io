@@ -17,6 +17,7 @@
 .content-box__container {
   background-color: grey;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 15px;
