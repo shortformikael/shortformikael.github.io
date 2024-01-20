@@ -1,14 +1,18 @@
 <script setup lang="ts">
-import ContentBox from './ContentBox.vue';
 import ContentSelector from './ContentSelector.vue';
 import ContentBoxRepeater from './ContentBoxRepeater.vue';
+import getContent from '@/composables/useContent'
+
+//console.log(getContent());
+
+const contentArray = getContent();
 
 </script>
 
 <template>
   <div class="content">
-    <ContentBoxRepeater/>
-    <ContentSelector/>
+    <ContentBoxRepeater :content="contentArray"/>
+    <ContentSelector :content="contentArray"/>
   </div>
 </template>
 

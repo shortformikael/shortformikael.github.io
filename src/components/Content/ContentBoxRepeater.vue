@@ -1,14 +1,13 @@
 <script setup lang="ts">
 import ContentBox from './ContentBox.vue';
 
+const props = defineProps(['content']);
+
 </script>
 
 <template>
-  
   <div class="content-box-repeater__wrapper">
-    <ContentBox/>
-    <ContentBox/>
-    <ContentBox/>
+    <ContentBox v-for="item in props.content" :key="item.id" :item="item" />
   </div>
 </template>
 

@@ -5,7 +5,6 @@
 <template>
   <div class="page-title">
     <div class="page-title__text">@shortformikael_</div>
-    
   </div>
 </template>
 

@@ -1,15 +1,17 @@
 <script setup lang="ts">
+const props = defineProps(['item'])
 
+console.log(props.item);
 </script>
 
 <template>
-  <div class="content-box__container">
-    <div class="content-box__title">header</div>
+  <div class="content-box__container" :id="props.item.title">
+    <div class="content-box__title">{{ props.item.title }}</div>
     <div class="content-box__content">
-      <p>hey here hello lorem lipsum baby here we go</p>
-      <div class="content-box__photo">photo</div>
+      <p>{{ props.item.content }}</p>
+      <div class="content-box__photo">{{ props.item.image }}</div>
     </div>
-    <div class="content-box__title">footer</div>
+    <div class="content-box__title">{{ props.item.title }}</div>
   </div>
 </template>
 <style>
@@ -18,6 +20,7 @@
   background-color: grey;
   display: flex;
   width: 100%;
+  height: 80vh;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 15px;
